@@ -1,5 +1,5 @@
 @font-face{
-    src: url(/ftypes/Roboto-ExtraBold.ttf);
+    src: url(Roboto-ExtraBold.ttf);
     font-family:Roboto font;
 }
 body{
@@ -64,4 +64,5 @@ a:focus{
 
 a:active{
     color: darkorange;
+
 }
