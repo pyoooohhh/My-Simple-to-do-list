@@ -1,0 +1,67 @@
+@font-face{
+    src: url(/ftypes/Roboto-ExtraBold.ttf);
+    font-family:Roboto font;
+}
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    background-color:white;
+    margin-top: 100px;
+    margin-bottom:50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+h1{
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.todo-list{
+    list-style-type: none;
+}
+.sub-item{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px 0px 10px 20px;
+}
+.container1{
+    background-color: #D0F0C0;
+    margin: 20px 20px 20px 0px;
+    height: 80px;
+    border-radius: 10px;
+    font-family: Roboto font;
+}
+
+.check{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.sub-item-link{
+    text-decoration: none;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: darkcyan;
+}
+
+a:focus{
+    outline: 2px solid tomato;
+}
+
+a:active{
+    color: darkorange;
+}
